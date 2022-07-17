@@ -2,7 +2,6 @@
 import os
 import random
 import time
-import webbrowser
 from time import time as timer
 from colorama import *
 
@@ -232,5 +231,3 @@ if __name__ == '__main__':
         os.exit()
     elif lastchoice == '2':
         main()
-    elif lastchoice == '3':
-        webbrowser.open_new(contact_us)
